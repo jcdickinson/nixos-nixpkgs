@@ -33,7 +33,7 @@
 }:
 stdenv.mkDerivation rec {
   pname = "1password";
-  version = "8.1.1";
+  version = "8.2.0";
 
   src = fetchurl {
     url = "https://downloads.1password.com/linux/tar/stable/x86_64/1password-${version}.x64.tar.gz";
